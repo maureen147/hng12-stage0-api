@@ -18,7 +18,7 @@ Before running the project, ensure you have the following installed:
 #### 1. Clone the Repository (If Pushed to GitHub)
 If you have already pushed your project to GitHub, clone it:
 ```sh
-git clone <your-repository-url>
+git clone <https://github.com/maureen147/hng12-stage0-api.git>
 cd hng12-stage0-api
 ```
 If you haven’t pushed it yet, move to the next step.
@@ -48,7 +48,7 @@ npm install express cors dotenv
 ### Environment Variables
 Create a `.env` file in the root directory and add the following:
 ```env
-PORT= it contains 4 number of environment variables
+PORT= 6000
 EMAIL=your-email@example.com
 GITHUB_URL=https://github.com/yourusername/hng12-stage0-api
 ```
@@ -62,7 +62,7 @@ GITHUB_URL=https://github.com/yourusername/hng12-stage0-api
 
 2. Open your browser or **Postman** and visit:
    ```
-   http://localhost:0000/
+   http://localhost:6000/
    ```
    You should receive a JSON response similar to:
    ```json
@@ -77,7 +77,7 @@ GITHUB_URL=https://github.com/yourusername/hng12-stage0-api
 To deploy your API, use platforms like:
 - [Render](https://render.com/)
 
-After deploying, replace `http://localhost:000/` with your live URL.
+After deploying, replace `http://localhost:6000/` with your live URL.
 
 ### Conclusion
 This API successfully retrieves essential information in JSON format, meeting the HNG12 Stage 0 task requirements. 🚀
