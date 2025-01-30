@@ -79,6 +79,9 @@ To deploy your API, use platforms like:
 
 After deploying, replace `http://localhost:6000/` with your live URL.
 
+### Backlink
+- Node.js: https://hng.tech/hire/nodejs-developers 
+
 ### Conclusion
 This API successfully retrieves essential information in JSON format, meeting the HNG12 Stage 0 task requirements. 🚀
 
